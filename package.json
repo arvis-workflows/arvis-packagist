@@ -1,0 +1,41 @@
+{
+  "name": "@jopemachine/arvis-packagist",
+  "version": "0.0.2",
+  "description": "Arvis workflow to search for PHP packages with Packagist",
+  "license": "MIT",
+  "repository": "vinkla/arvish-packagist",
+  "author": {
+    "name": "Vincent Klaiber",
+    "email": "hello@doubledip.se"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvish",
+    "composer",
+    "packagist",
+    "php"
+  ],
+  "dependencies": {
+    "@jopemachine/arvish": "^0.1.28"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "xo": "^0.38.1"
+  },
+  "xo": {
+    "space": true
+  }
+}
