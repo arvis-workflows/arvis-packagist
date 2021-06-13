@@ -1,7 +1,7 @@
 {
   "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
   "category": "Productivity",
-  "createdby": "Vincent Klaiber",
+  "creator": "Vincent Klaiber",
   "description": "Arvis workflow to search for PHP packages with Packagist",
   "name": "Packagist",
   "readme": "",
@@ -9,14 +9,14 @@
   "enabled": true,
   "commands": [
     {
-      "type": "scriptfilter",
+      "type": "scriptFilter",
       "command": "packagist",
       "title": "Packagist",
       "subtitle": "Search for PHP packages",
-      "script_filter": "node index.js \"$1\"",
-      "running_subtext": "Searching…",
+      "scriptFilter": "node index.js \"$1\"",
+      "runningSubtext": "Searching…",
       "withspace": true,
-      "arg_type": "required",
+      "argType": "required",
       "action": [
         {
           "modifiers": "normal",
