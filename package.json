@@ -1,6 +1,6 @@
 {
-  "name": "@jopemachine/arvis-packagist",
-  "version": "0.2.0",
+  "name": "arvis-packagist",
+  "version": "0.0.2",
   "description": "Arvis workflow to search for PHP packages with Packagist",
   "license": "MIT",
   "repository": "vinkla/arvish-packagist",
@@ -30,7 +30,7 @@
     "php"
   ],
   "dependencies": {
-    "@jopemachine/arvish": "^0.2.4"
+    "arvish": "^0.0.3"
   },
   "devDependencies": {
     "ava": "^3.15.0",

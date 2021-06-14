@@ -6,6 +6,12 @@
 
 [<img alt="arvis-packagist" src="https://user-images.githubusercontent.com/499192/109269690-24120200-780d-11eb-9acd-fa532fd6258a.png" width="634">](https://packagist.org)
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/vinkla/alfred-packagist).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 ```sh
