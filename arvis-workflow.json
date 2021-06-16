@@ -5,6 +5,7 @@
   "description": "Arvis workflow to search for PHP packages with Packagist",
   "name": "Packagist",
   "readme": "",
+  "version": "0.0.3",
   "defaultIcon": "icon.png",
   "enabled": true,
   "commands": [
