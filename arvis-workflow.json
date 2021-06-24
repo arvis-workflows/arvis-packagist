@@ -4,8 +4,8 @@
   "creator": "Vincent Klaiber",
   "description": "Arvis workflow to search for PHP packages with Packagist",
   "name": "Packagist",
-  "readme": "",
-  "version": "0.0.3",
+  "readme": "Arvis workflow to search for PHP packages with Packagist",
+  "version": "0.0.4",
   "defaultIcon": "icon.png",
   "enabled": true,
   "commands": [
@@ -14,11 +14,11 @@
       "command": "packagist",
       "title": "Packagist",
       "subtitle": "Search for PHP packages",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Searching…",
       "withspace": true,
       "argType": "required",
-      "action": [
+      "actions": [
         {
           "modifiers": "normal",
           "type": "open",
