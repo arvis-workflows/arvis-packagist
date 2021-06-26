@@ -1,6 +1,6 @@
 {
   "name": "arvis-packagist",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Arvis workflow to search for PHP packages with Packagist",
   "license": "MIT",
   "repository": "vinkla/arvish-packagist",
