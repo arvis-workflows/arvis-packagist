@@ -30,7 +30,7 @@
     "php"
   ],
   "dependencies": {
-    "arvish": "^0.2.1"
+    "arvish": ">=0.3.1"
   },
   "devDependencies": {
     "ava": "^3.15.0",
