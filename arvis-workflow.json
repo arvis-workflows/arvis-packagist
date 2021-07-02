@@ -1,35 +1,37 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
-  "category": "Productivity",
-  "creator": "Vincent Klaiber",
-  "description": "Arvis workflow to search for PHP packages with Packagist",
-  "name": "Packagist",
-  "readme": "Arvis workflow to search for PHP packages with Packagist",
-  "version": "0.0.5",
-  "defaultIcon": "icon.png",
-  "enabled": true,
-  "commands": [
-    {
-      "type": "scriptFilter",
-      "command": "packagist",
-      "title": "Packagist",
-      "subtitle": "Search for PHP packages",
-      "scriptFilter": "node index.js \"{query}\"",
-      "runningSubtext": "Searching…",
-      "withspace": true,
-      "argType": "required",
-      "actions": [
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+    "category": "Productivity",
+    "creator": "Vincent Klaiber",
+    "description": "Arvis workflow to search for PHP packages with Packagist",
+    "name": "arvis-packagist",
+    "readme": "Arvis workflow to search for PHP packages with Packagist",
+    "version": "0.0.6",
+    "defaultIcon": "icon.png",
+    "webAddress": "https://github.com/jopemachine/arvis-packagist",
+    "enabled": true,
+    "commands": [
         {
-          "modifiers": "normal",
-          "type": "open",
-          "target": "{query}"
-        },
-        {
-          "modifiers": "ctrl",
-          "type": "clipboard",
-          "text": "{query}"
+            "type": "scriptFilter",
+            "command": "packagist",
+            "title": "Packagist",
+            "subtitle": "Search for PHP packages",
+            "scriptFilter": "node index.js \"{query}\"",
+            "runningSubtext": "Searching…",
+            "withspace": true,
+            "argType": "required",
+            "actions": [
+                {
+                    "modifiers": "normal",
+                    "type": "open",
+                    "target": "{query}"
+                },
+                {
+                    "modifiers": "ctrl",
+                    "type": "clipboard",
+                    "text": "{query}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "latest": "0.0.5"
 }
