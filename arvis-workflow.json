@@ -5,7 +5,7 @@
     "description": "Arvis workflow to search for PHP packages with Packagist",
     "name": "arvis-packagist",
     "readme": "Arvis workflow to search for PHP packages with Packagist",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "defaultIcon": "icon.png",
     "webAddress": "https://github.com/jopemachine/arvis-packagist",
     "enabled": true,
@@ -32,6 +32,5 @@
                 }
             ]
         }
-    ],
-    "latest": "0.0.5"
+    ]
 }

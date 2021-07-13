@@ -1,6 +1,6 @@
 {
   "name": "arvis-packagist",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Arvis workflow to search for PHP packages with Packagist",
   "license": "MIT",
   "repository": "vinkla/arvish-packagist",
@@ -19,7 +19,6 @@
   "files": [
     "index.js",
     "icon.png",
-    "info.plist",
     "arvis-workflow.json"
   ],
   "keywords": [
@@ -30,7 +29,7 @@
     "php"
   ],
   "dependencies": {
-    "arvish": ">=0.3.6"
+    "arvish": ">=0.5.7"
   },
   "devDependencies": {
     "arvish-test": "0.0.2",
